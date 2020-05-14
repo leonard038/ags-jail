@@ -1,0 +1,237 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: sans-serif;
+}
+header
+{
+	position: absolute;
+	width: 100%;
+	background: #3E5C9A;
+	height: 83px;
+	line-height: 83px;
+	padding: 0 185px;
+}
+.logo
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	position: relative;
+	top: 6px;
+	letter-spacing: -1px;
+	float: left;
+}
+.right
+{
+	float: right;
+	padding-right: 16px;
+}
+form input[type="text"],
+form input[type="password"]
+{
+	height: 24px;
+	width: 145px;
+	margin-right: 15px;
+	position: relative;
+	top: 5px;
+	left: 0;
+	padding: 0 5px;
+}
+form input[type="text"]
+{
+	position: relative;
+	left: 5px;
+	width: 147px;
+}
+form input[type="submit"]
+{
+	position: relative;
+	top: 5px;
+	display: inline-block;
+	padding: 5px 6px;
+	background: #5F68F08F;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-weight: 700;
+	border: 1px solid #29487D;
+	font-size: 11px;
+}
+.title_email
+{
+	color: #fff;
+	position: absolute;
+	top: -19px;
+	left: 395px;
+	font-size: 12px;
+}
+.title_password
+{
+	color: #fff;
+	position: absolute;
+	top: -19px;
+	left: 557px;
+	font-size: 12px;
+}
+.main_section
+{
+	width: 100%;
+	background: #E3E6F0;
+	min-height: 100vh;
+	padding: 30px 185px;
+}
+.banner
+{
+	float: left;
+	position: relative;
+	top: 90px;
+	width: 420px;
+	/*border: 1px solid #111;*/
+}
+.banner h3
+{
+	color: #27579C;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0;
+}
+.banner img
+{
+	margin-top: 10px;
+}
+.signup
+{
+	float: right;
+	position: relative;
+	top: 90px;
+	width: 410px;
+	/*border: 1px solid #111;*/
+}
+.signup h2
+{
+	color: #333333;
+	font-size: 32px;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	position: relative;
+	top: 0;
+	left: 5px;
+	
+}
+.signup h5
+{
+	color: #4F333E;
+	font-size: 13px;
+	margin-bottom: 10px;
+	position: relative;
+	top: 0;
+	left: 7px;
+}
+.signup form input[type="text"]
+{
+	margin: 5px 2px;
+	height: 35px;
+	width: 185px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	border: 0.5px solid #3333;
+}
+.signup form input[type="tel"],
+.signup form input[type="password"]
+{
+	width: 92%;
+	margin-top: 10px;
+	margin-left: 8px;
+	height: 35px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	border: 0.5px solid #d3d3d3;
+}
+.signup form input[type="password"]
+{
+	margin-top: 5px;
+}
+.birthday
+{
+	position: relative;
+	top: 15px;
+	left: 10px;
+	color: #93979F;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+select
+{
+	position: relative;
+	top: 0;
+	left: 10px;
+	padding: 4px 10px;
+	border: none;
+	outline: none;
+	border: 0.5px solid #d3d3d3;
+}
+.gender
+{
+
+	position: relative;
+	top: 8px;
+	left: 10px;
+	color: #93979F;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+form input[type="radio"]
+{
+	position: relative;
+	top: 0;
+	left: 15px;
+	margin-right: 18px;
+	font-weight: bold;
+}
+form .female
+{
+	font-weight: bold;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.desc
+{
+	position: relative;
+	top: 0;
+	left: 5px;
+	margin-top: 30px;
+	text-align: justify;
+	font-size: 10px;
+	width: 320px;
+	color: #8B9299;
+	/*border: 1px solid #111;*/
+}
+.desc a
+{
+	text-decoration: none;
+	font-size: 11px;
+}
+.signup_btn
+{
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+	background: #5E984B;
+	color: #fff;
+	padding: 8px 55px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 5px;
+}
